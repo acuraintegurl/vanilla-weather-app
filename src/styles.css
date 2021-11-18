@@ -1,0 +1,106 @@
+h1,
+h2,
+h5,
+p {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(7, 18, 56, 0.2);
+}
+.box {
+  border-radius: 16px;
+  margin-top: 16px;
+  padding: 16px 16px 8px 16px;
+  background-color: rgba(7, 18, 56, 0.1);
+}
+.button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(7, 18, 56, 0.1);
+  padding: 10px;
+  margin: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: ease-in-out 150ms;
+}
+.button:hover {
+  background-color: rgba(7, 18, 56, 0.1);
+}
+
+.button:active {
+  background-color: rgba(7, 18, 56, 0.5);
+}
+.container {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(179, 185, 197) 0%,
+      transparent
+    ),
+    radial-gradient(50% 50% at 24% 24%, rgb(130, 155, 170) 0%, transparent),
+    radial-gradient(50% 50% at 75% 25%, rgb(182, 211, 238) 0%, transparent);
+  background-color: #606a79;
+  border-radius: 16px;
+  padding-bottom: 24px;
+  margin-top: 10%;
+}
+.date {
+  text-align: right;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(7, 18, 56, 0.2);
+}
+.fa-search {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 16px;
+}
+.fa-map-marker-alt {
+  color: white;
+  margin-right: 8px;
+}
+.inputCity {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+.time {
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(7, 18, 56, 0.2);
+}
+.weather-result {
+  padding: 16px;
+}
+.weather-days {
+  text-align: center;
+  margin: 0px 16px 0px 16px;
+}
+.search {
+  border-radius: 8px;
+  background-color: white;
+  padding: 12px 0;
+}
+
+.submitButton {
+  border: none;
+  background-color: transparent;
+  color: #0e70c0;
+}
+
+.submitButton:active {
+  background-color: rgba(7, 18, 56, 0.5);
+}
+
+.units {
+  padding-left: 4px;
+  font-size: 14px;
+}
+
+.open-source {
+  color: black;
+  text-shadow: none;
+  padding-top: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
