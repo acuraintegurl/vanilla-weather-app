@@ -24,6 +24,7 @@ ul {
 
 .temperatures {
   position: relative;
+  top: 16px;
 }
 .temp-integer {
   font-size: 40px;
