@@ -1,3 +1,6 @@
+body {
+  color: #555555;
+}
 h1 {
   margin-bottom: 0;
 }
@@ -14,7 +17,7 @@ ul {
 .weather-app-content {
   max-width: 600px;
   padding: 20px;
-  border: 1px solid #333333;
+  border: 1px solid #bbb;
   border-radius: 10px;
 }
 
@@ -24,10 +27,11 @@ ul {
 
 .temperatures {
   position: relative;
-  top: 16px;
+  top: 12px;
 }
 .temp-integer {
-  font-size: 40px;
+  font-size: 56px;
+  font-weight: 500;
 }
 
 .weather-temperature .units {
