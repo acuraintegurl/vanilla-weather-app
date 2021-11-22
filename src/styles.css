@@ -7,7 +7,6 @@ h1 {
 
 li {
   list-style: none;
-  text-transform: capitalize;
 }
 
 ul {
@@ -44,4 +43,8 @@ ul {
 .weather-temperature a {
   text-decoration: none;
   color: black;
+}
+
+#description {
+  text-transform: capitalize;
 }
