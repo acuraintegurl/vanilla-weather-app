@@ -17,8 +17,21 @@
   <body>
     <div class="container">
       <div class="weather-app">
-        <form id="search-form"></form>
         <div class="weather-app-content">
+          <form id="search-form">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city..."
+                  class="form-control"
+                />
+              </div>
+              <div class="col-3">
+                <input type="submit" value="search" class="btn btn-primary" />
+              </div>
+            </div>
+          </form>
           <h1 id="city">London</h1>
           <ul>
             <li>

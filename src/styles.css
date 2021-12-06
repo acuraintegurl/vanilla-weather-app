@@ -52,3 +52,7 @@ ul {
 #description {
   text-transform: capitalize;
 }
+
+#search-form {
+  margin-bottom: 10px;
+}
