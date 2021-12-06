@@ -19,14 +19,14 @@ ul {
 }
 
 .weather-app-content {
-  max-width: 600px;
   padding: 20px;
   border: 1px solid #bbb;
   border-radius: 10px;
 }
 
 .weather-app {
-  margin: 0 auto;
+  margin: 20px auto;
+  max-width: 600px;
 }
 
 .temperatures {
